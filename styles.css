@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-size: 62.5%;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+.attribution { 
+    font-size: 1.6rem; text-align: center; 
+}
+.attribution a {
+    font-size: 1.6rem;
+    color: hsl(228, 45%, 44%); 
+}
+#container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 450px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+}
+.cardHeader > .qrCode{
+    height: 90%;
+    width: 90%;
+    margin: 1rem; 
+}
+.cardHeader > .qrCode > .qrCodeImage{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("/images/image-qr-code.png") center/cover no-repeat;
+    border-radius: 15px;
+}
+.cardBody{
+    height: 10%;
+    width: 25.2rem;
+    font-size: 1.5rem;
+    color:hsl(218, 44%, 22%);
+    font-weight: 1000;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+.cardFooter{
+    width: 25.2rem;
+    height: 20%;
+    font-size: 1.5rem;
+    color:hsl(212, 45%, 89%);
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 400;
+    padding: 0.5rem;
+    margin: 0.7rem 0 0 0.7rem;
+}
